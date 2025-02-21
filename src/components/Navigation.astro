@@ -1,7 +1,8 @@
 <div class="nav-links">
-  <a class="data-confetti-button" href="/">Home</a>
+  <a data-confetti-button href="/">Home</a>
   <a href="/about/">About</a>
   <a href="/blog/">Blog</a>
+  <a href="/tags/">Tags</a>
 </div>
 
 <script>
@@ -13,6 +14,6 @@
 
   // Add event listeners to fire confetti when a button is clicked.
   buttons.forEach((button) => {
-    button.addEventListener('clicked', () => confetti());
+    button.addEventListener('click', () => confetti());
   });
 </script>
